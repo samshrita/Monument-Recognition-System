@@ -1,0 +1,47 @@
+org.tensorflow.lite.examples.objectdetection.app-jetified-camera-view-1.1.0-beta03-0 C:\Users\metwa\.gradle\caches\transforms-3\06bfdf27e02fdc5f608f4974df917f5e\transformed\jetified-camera-view-1.1.0-beta03\res
+org.tensorflow.lite.examples.objectdetection.app-lifecycle-livedata-2.4.0-1 C:\Users\metwa\.gradle\caches\transforms-3\0c770b088ed1b764d4c01f19891bfefd\transformed\lifecycle-livedata-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-lifecycle-livedata-core-2.4.0-2 C:\Users\metwa\.gradle\caches\transforms-3\0c98a58c77eaed3c47fb516a2ba43894\transformed\lifecycle-livedata-core-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-transition-1.3.0-3 C:\Users\metwa\.gradle\caches\transforms-3\0dad76ffe86405a2250e4d3a16ea2aee\transformed\transition-1.3.0\res
+org.tensorflow.lite.examples.objectdetection.app-navigation-common-2.3.5-4 C:\Users\metwa\.gradle\caches\transforms-3\17e22e9165076c1fab53dc9deca73a3a\transformed\navigation-common-2.3.5\res
+org.tensorflow.lite.examples.objectdetection.app-navigation-ui-2.3.5-5 C:\Users\metwa\.gradle\caches\transforms-3\18b4db29cb8af3ee0621c3cc28cbbba5\transformed\navigation-ui-2.3.5\res
+org.tensorflow.lite.examples.objectdetection.app-core-1.7.0-6 C:\Users\metwa\.gradle\caches\transforms-3\2dd82e7b704c3e2473bb6b9cb3dd9b24\transformed\core-1.7.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-camera-core-1.1.0-beta03-7 C:\Users\metwa\.gradle\caches\transforms-3\2ffefe88f4c902314652fd61448973c3\transformed\jetified-camera-core-1.1.0-beta03\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-lifecycle-process-2.4.0-8 C:\Users\metwa\.gradle\caches\transforms-3\36dc4a49a1d6d99498401d81cff2f7a3\transformed\jetified-lifecycle-process-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-emoji2-1.0.0-9 C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\res
+org.tensorflow.lite.examples.objectdetection.app-constraintlayout-2.0.4-10 C:\Users\metwa\.gradle\caches\transforms-3\3c2f35fc9db19b52846ea0abe63684a9\transformed\constraintlayout-2.0.4\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-camera-camera2-1.1.0-beta03-11 C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-glide-4.12.0-12 C:\Users\metwa\.gradle\caches\transforms-3\4fa6d134dcabfc70e65355e61ccba05f\transformed\jetified-glide-4.12.0\res
+org.tensorflow.lite.examples.objectdetection.app-navigation-fragment-2.3.5-13 C:\Users\metwa\.gradle\caches\transforms-3\534341efa04197f65c53da7239d51d33\transformed\navigation-fragment-2.3.5\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-lifecycle-service-2.4.0-14 C:\Users\metwa\.gradle\caches\transforms-3\5ff5f04a91e7c841790df5e4e840a4e1\transformed\jetified-lifecycle-service-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-annotation-experimental-1.1.0-15 C:\Users\metwa\.gradle\caches\transforms-3\64f863b47a5a12be469949b17d578900\transformed\jetified-annotation-experimental-1.1.0\res
+org.tensorflow.lite.examples.objectdetection.app-lifecycle-runtime-2.4.0-16 C:\Users\metwa\.gradle\caches\transforms-3\672f7c27c3430707c96509f817958b14\transformed\lifecycle-runtime-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-material-1.0.0-17 C:\Users\metwa\.gradle\caches\transforms-3\6dba24622cb2680290ab992a67bd429a\transformed\material-1.0.0\res
+org.tensorflow.lite.examples.objectdetection.app-databinding-adapters-7.3.1-18 C:\Users\metwa\.gradle\caches\transforms-3\6f7dc06db3544df554ceeb8ca29688d2\transformed\databinding-adapters-7.3.1\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-camera-lifecycle-1.1.0-beta03-19 C:\Users\metwa\.gradle\caches\transforms-3\7c783edf8702bf3c56adc89b2f3fd656\transformed\jetified-camera-lifecycle-1.1.0-beta03\res
+org.tensorflow.lite.examples.objectdetection.app-cardview-1.0.0-20 C:\Users\metwa\.gradle\caches\transforms-3\7e3cb7596746f211f457f16accfaa8be\transformed\cardview-1.0.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-viewpager2-1.0.0-21 C:\Users\metwa\.gradle\caches\transforms-3\801a712e50f9d716a3a2d7c868e23cc1\transformed\jetified-viewpager2-1.0.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-core-ktx-1.6.0-22 C:\Users\metwa\.gradle\caches\transforms-3\81b850cb94ddbdd6440dfa186183aaaa\transformed\jetified-core-ktx-1.6.0\res
+org.tensorflow.lite.examples.objectdetection.app-databinding-runtime-7.3.1-23 C:\Users\metwa\.gradle\caches\transforms-3\8e2c21e0f172e4ff8871cedfa9945dd3\transformed\databinding-runtime-7.3.1\res
+org.tensorflow.lite.examples.objectdetection.app-coordinatorlayout-1.0.0-24 C:\Users\metwa\.gradle\caches\transforms-3\95623fcd9548362f508f508bf5aac9f3\transformed\coordinatorlayout-1.0.0\res
+org.tensorflow.lite.examples.objectdetection.app-appcompat-1.4.1-25 C:\Users\metwa\.gradle\caches\transforms-3\aab6312615d721c4ebadd102c472d198\transformed\appcompat-1.4.1\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-dotsindicator-4.3-debug-26 C:\Users\metwa\.gradle\caches\transforms-3\b801d11d602b08cdb50f62ca4bd4d731\transformed\jetified-dotsindicator-4.3-debug\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-lifecycle-runtime-ktx-2.4.0-27 C:\Users\metwa\.gradle\caches\transforms-3\bef05bb49f41288c7bc6b249c7788c10\transformed\jetified-lifecycle-runtime-ktx-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-navigation-runtime-2.3.5-28 C:\Users\metwa\.gradle\caches\transforms-3\cc99404632b5cce67149874fcdfd84df\transformed\navigation-runtime-2.3.5\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-startup-runtime-1.0.0-29 C:\Users\metwa\.gradle\caches\transforms-3\d08b7cbe25c5e7abc1dc4e4b900cf29e\transformed\jetified-startup-runtime-1.0.0\res
+org.tensorflow.lite.examples.objectdetection.app-recyclerview-1.1.0-30 C:\Users\metwa\.gradle\caches\transforms-3\d3207dde380d30c3a6dc11be1a41ea91\transformed\recyclerview-1.1.0\res
+org.tensorflow.lite.examples.objectdetection.app-drawerlayout-1.1.1-31 C:\Users\metwa\.gradle\caches\transforms-3\df5217ab35efb076391cec93d58e719e\transformed\drawerlayout-1.1.1\res
+org.tensorflow.lite.examples.objectdetection.app-fragment-1.3.6-32 C:\Users\metwa\.gradle\caches\transforms-3\e68c2abfd422dc63e4c8136de6b4cf2f\transformed\fragment-1.3.6\res
+org.tensorflow.lite.examples.objectdetection.app-lifecycle-viewmodel-2.4.0-33 C:\Users\metwa\.gradle\caches\transforms-3\e87cd5faa33307a93bf6fdc1101963ee\transformed\lifecycle-viewmodel-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-window-1.0.0-alpha09-34 C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-appcompat-resources-1.4.1-35 C:\Users\metwa\.gradle\caches\transforms-3\eb29138536d33493db4eb45edcbbd5a3\transformed\jetified-appcompat-resources-1.4.1\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-lifecycle-viewmodel-ktx-2.4.0-36 C:\Users\metwa\.gradle\caches\transforms-3\ebb71661ee3e0fe1d2463ac2ae12367b\transformed\jetified-lifecycle-viewmodel-ktx-2.4.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-emoji2-views-helper-1.0.0-37 C:\Users\metwa\.gradle\caches\transforms-3\f47c76281afb6a01a8bfdfa67f92900d\transformed\jetified-emoji2-views-helper-1.0.0\res
+org.tensorflow.lite.examples.objectdetection.app-jetified-savedstate-1.1.0-38 C:\Users\metwa\.gradle\caches\transforms-3\fdd5342c65b1e691433309c9cbf3219a\transformed\jetified-savedstate-1.1.0\res
+org.tensorflow.lite.examples.objectdetection.app-pngs-39 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\generated\res\pngs\debug
+org.tensorflow.lite.examples.objectdetection.app-resValues-40 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\generated\res\resValues\debug
+org.tensorflow.lite.examples.objectdetection.app-rs-41 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\generated\res\rs\debug
+org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-42 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.tensorflow.lite.examples.objectdetection.app-merged_res-44 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\intermediates\merged_res\debug
+org.tensorflow.lite.examples.objectdetection.app-debug-45 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\debug\res
+org.tensorflow.lite.examples.objectdetection.app-main-46 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\res

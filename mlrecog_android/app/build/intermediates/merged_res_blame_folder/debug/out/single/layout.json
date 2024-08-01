@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout3.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout3.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\loading_progress_bar.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\loading_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\activity_details_page.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\activity_details_page.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:/layout/activity_nearby_places_page.xml",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-46:/layout/activity_nearby_places_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout6.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout6.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\info_bottom_sheet.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\info_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\activity_nearby_service.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\activity_nearby_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\fragment_camera.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout4.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout4.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout8.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout8.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout2.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout2.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\cardbutton.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\cardbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout7.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout7.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout5.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout5.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\image_view.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\image_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\activity_nearby_places_page.xml",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\activity_nearby_places_page.xml"
+    }
+]

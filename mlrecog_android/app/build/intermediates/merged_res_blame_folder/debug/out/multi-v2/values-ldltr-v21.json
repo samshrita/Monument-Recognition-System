@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-42:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\metwa\\.gradle\\caches\\transforms-3\\aab6312615d721c4ebadd102c472d198\\transformed\\appcompat-1.4.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

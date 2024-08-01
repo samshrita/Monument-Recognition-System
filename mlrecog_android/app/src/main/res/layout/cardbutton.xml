@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardButton"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="10dp"
+
+
+    android:background="@android:color/white"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="120dp"
+
+                android:id="@+id/showimage"
+                android:padding="5dp"/>
+
+            <LinearLayout
+                android:layout_width="323dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titlename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="4dp"
+
+                    android:text="title"
+                    android:textColor="#222222"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:text="title"
+                    android:textColor="#444444"
+                    android:textSize="12sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/getdirection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:layout_marginStart="18dp"
+                        android:text="Get Direction"
+                        android:textColor="#b77900"
+                        android:background="#FFFFFF"
+                        android:elevation="0dp"
+                        android:stateListAnimator="@null"
+                        android:textAllCaps="false"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/distance"
+                        android:layout_width="67dp"
+                        android:layout_height="41dp"
+                        android:layout_marginEnd="20dp"
+                        android:gravity="center"
+                        android:text="Less than 500m"
+                        app:layout_constraintBottom_toBottomOf="parent"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.808"
+                        app:layout_constraintStart_toEndOf="@+id/getdirection"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.571" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+

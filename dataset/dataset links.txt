@@ -1,0 +1,5 @@
+#dataset used to train YOLOv7
+https://drive.google.com/file/d/1tGH4GE0MEbkVHtZ-EVQu0zca7AkBEAlx/view?usp=sharing
+
+#dataset used to train MobilenetSSD V2
+https://drive.google.com/drive/folders/1AjsvAzWeob8byyo7nxIHulGSds3krOzf?usp=sharing

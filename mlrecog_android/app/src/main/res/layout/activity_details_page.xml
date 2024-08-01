@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".detailsPage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Title"
+            android:textColor="#444444"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Carousel ImageView -->
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/carousel_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:contentDescription="carouselviewpager">
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"
+            app:dotsColor="#EEEEEE"
+            app:dotsCornerRadius="8dp"
+            app:dotsSize="12dp"
+            app:dotsSpacing="4dp"
+            app:dotsWidthFactor="2.5"
+            app:progressMode="true"
+            app:selectedDotColor="#b77900" />
+
+
+        <TextView
+            android:id="@+id/textview_bullets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autoLink="web"
+            android:bufferType="spannable"
+            android:lineSpacingExtra="4dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#444444"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <!-- Description TextView -->
+        <TextView
+            android:id="@+id/description_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Description"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

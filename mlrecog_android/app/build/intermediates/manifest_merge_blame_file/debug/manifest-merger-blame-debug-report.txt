@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="org.tensorflow.lite.examples.objectdetection"
+5    android:versionCode="1"
+6    android:versionName="1.0.4" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+11    <!-- Enable instant app support -->
+12    <dist:module dist:instant="true" /> <!-- Declare features -->
+12-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:7:5-40
+12-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:7:18-37
+13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
+13-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:8:5-60
+13-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:8:19-57
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:9:5-65
+14-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.INTERNET" /> <!-- Permissions for the Android below 11 (R) -->
+15-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:10:5-67
+15-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:11:5-80
+16-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Permission for the Android 11 (R) and above -->
+17-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:12:5-81
+17-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+18-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:13:5-82
+18-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:13:22-79
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:14:5-79
+19-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:15:5-81
+20-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22
+23    <application
+23-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:17:5-72:19
+24        android:allowBackup="true"
+24-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:18:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.7.0] C:\Users\metwa\.gradle\caches\transforms-3\2dd82e7b704c3e2473bb6b9cb3dd9b24\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:19:9-43
+28        android:label="@string/app_name"
+28-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:20:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:21:9-69
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:22:9-54
+31        android:supportsRtl="true"
+31-->[com.tbuonomo:dotsindicator:4.3] C:\Users\metwa\.gradle\caches\transforms-3\b801d11d602b08cdb50f62ca4bd4d731\transformed\jetified-dotsindicator-4.3-debug\AndroidManifest.xml:9:18-44
+32        android:taskAffinity="" >
+32-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:23:9-32
+33        <activity
+33-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:25:9-32:20
+34            android:name="org.tensorflow.lite.examples.objectdetection.NearbyService"
+34-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:26:13-42
+35            android:exported="false"
+35-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:27:13-37
+36            android:theme="@style/Theme.AppCompat.Light" >
+36-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:28:13-57
+37            <meta-data
+37-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:29:13-31:36
+38                android:name="android.app.lib_name"
+38-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:30:17-52
+39                android:value="" />
+39-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:31:17-33
+40        </activity>
+41        <activity
+41-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:33:9-40:20
+42            android:name="org.tensorflow.lite.examples.objectdetection.NearbyPlacesPage"
+42-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:34:13-45
+43            android:exported="false"
+43-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:35:13-37
+44            android:theme="@style/Theme.AppCompat.Light" >
+44-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:36:13-57
+45            <meta-data
+45-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:29:13-31:36
+46                android:name="android.app.lib_name"
+46-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:30:17-52
+47                android:value="" />
+47-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:31:17-33
+48        </activity>
+49        <activity
+49-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:41:9-48:20
+50            android:name="org.tensorflow.lite.examples.objectdetection.detailsPage"
+50-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:42:13-40
+51            android:exported="false"
+51-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:43:13-37
+52            android:theme="@style/Theme.AppCompat.Light" >
+52-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:44:13-57
+53            <meta-data
+53-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:29:13-31:36
+54                android:name="android.app.lib_name"
+54-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:30:17-52
+55                android:value="" />
+55-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:31:17-33
+56        </activity>
+57        <activity
+57-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:49:9-71:20
+58            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+58-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:50:13-41
+59            android:clearTaskOnLaunch="true"
+59-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:51:13-45
+60            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+60-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:52:13-91
+61            android:exported="true"
+61-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:53:13-36
+62            android:icon="@mipmap/ic_launcher"
+62-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:54:13-47
+63            android:resizeableActivity="true"
+63-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:55:13-46
+64            android:rotationAnimation="seamless"
+64-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:56:13-49
+65            android:theme="@style/AppTheme" >
+65-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:57:13-44
+66
+67            <!-- Main app intent filter -->
+68            <intent-filter>
+68-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:61:13-65:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:62:17-69
+69-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:62:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:64:17-77
+71-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:64:27-74
+72            </intent-filter>
+73
+74            <!-- Declare notch support -->
+75            <meta-data
+75-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:68:13-70:40
+76                android:name="android.notch_support"
+76-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:69:17-53
+77                android:value="true" />
+77-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:70:17-37
+78        </activity>
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+86
+87        <service
+87-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+88            android:name="androidx.camera.core.impl.MetadataHolderService"
+88-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+89            android:enabled="false"
+89-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+90            android:exported="false" >
+90-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+91            <meta-data
+91-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+92                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+92-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+93                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+93-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\metwa\.gradle\caches\transforms-3\4296c1a8d25b91d8df7455e61f84c05c\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+94        </service>
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+98            android:authorities="org.tensorflow.lite.examples.objectdetection.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\metwa\.gradle\caches\transforms-3\379a4154da09694569a030a8ffe86b14\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\metwa\.gradle\caches\transforms-3\36dc4a49a1d6d99498401d81cff2f7a3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\metwa\.gradle\caches\transforms-3\36dc4a49a1d6d99498401d81cff2f7a3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\metwa\.gradle\caches\transforms-3\36dc4a49a1d6d99498401d81cff2f7a3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+106        </provider>
+107    </application>
+108
+109</manifest>
